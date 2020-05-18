@@ -1,0 +1,31 @@
+body {
+    background-color: lightgray;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.content-container {
+    height: 100%;
+    background-color: white;
+}
+
+.content {
+    width: 1024px;
+    height: 100%;
+    background-color: white;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.loading-container {
+    margin: 20px;
+}
+
+.icon {
+    margin: 20px;
+    width: 160px;
+    height: 160px;
+}
